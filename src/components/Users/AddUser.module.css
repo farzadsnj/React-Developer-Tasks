@@ -1,8 +1,40 @@
 .card {
-	margin: 2rem auto;
-	padding: 1rem;
-	width: 90%;
-	max-width: 40rem;
-	display: flex;
-	justify-content: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 100%;
+  max-width: 40rem;
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.form input[type="text"],
+.form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.submit {
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #45a049;
 }
